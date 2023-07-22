@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+main {
+  background-image: url('assets/Screenshot\ 2023-07-20\ at\ 2.32.06\ PM.png');
+  height: 70rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+} 
+
+aside {
+  position: fixed;
+  display: inline-block;
+  overflow: auto;
+  width: 200px;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.image-bad-bunny {
+  position: relative;
+  margin: 14px auto;
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+/* .fa-home:before {
+  content: "\f015";
+} */

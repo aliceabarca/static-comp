@@ -146,7 +146,14 @@ header {
   text-align: center;
 }
 
-.twitter-image, .instagram-image {
+.twitter-image,
+.instagram-image,
+.mic-image,
+.home-image,
+.calendar-image,
+.music-image,
+.radio-image,
+.setting-image {
   width: 10px;
   height: 10px;
 }

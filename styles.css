@@ -132,7 +132,12 @@ header {
 }
 
 .bottom-text {
-  position: absolute;
+  margin-top: 30px;
+}
+
+.graph-button {
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 .circle-graph-text {

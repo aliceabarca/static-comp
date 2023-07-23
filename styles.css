@@ -95,7 +95,48 @@ header {
 }
 
 .main-content {
-    display: inline-block;
-    width: calc(100% - 200px);
-    margin-left: 200px;
+  display: inline-block;
+  width: calc(100% - 200px);
+  margin-left: 200px;
+}
+
+.nav-bar li {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 95px;
+  text-align: center;
+  color: #fff;
+  line-height: 50px;
+}
+
+.circle-graphs {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+}
+
+.graph {
+  box-sizing: border-box;
+  width: 130px;
+  height: 130px;
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 68px;
+  border: 5px solid #ff0
+}
+
+.text {
+  line-height: 110px;
+  font-size: 3em;
+}
+
+.bottom-text {
+  position: absolute;
+}
+
+.circle-graph-text {
+  color: #ff0;
+  /* transform: rotate(-45deg); */
+  text-align: center;
 }

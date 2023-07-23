@@ -146,7 +146,7 @@ header {
   text-align: center;
 }
 
-.twitter-image {
+.twitter-image, .instagram-image {
   width: 10px;
   height: 10px;
 }

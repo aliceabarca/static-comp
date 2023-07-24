@@ -8,7 +8,7 @@
 
 main {
   background-image: url('assets/Screenshot\ 2023-07-20\ at\ 2.32.06\ PM.png');
-  height: 70rem;
+  height: 80rem;
   background-size: cover;
   background-repeat: no-repeat;
 } 
@@ -236,49 +236,15 @@ header {
   height: 10px;
 }
 
-/* .table-head {
-  padding-left: 8px;
-}
-
 th {
-  background-color: rgba(0, 0, 0, .7);
-  line-height: 30px;
-  color: rgba(255, 255, 255, .7);
-  font-weight: normal;
+  font-size: 10px;
 }
 
-.table-hr {
-  position: absolute;
-  left: 15%;
-  width: 70%;
-  border: 0px;
-  height: 1px;
-  background-color: rgba(0, 0, 0, .1);
+.table-1, .table-2, .table-3, .table-4, .table-5, .table-6, .table-7 {
+  margin-top: 20px;
+  margin-bottom: -50px
 }
 
-.table {
-  font-size: .8em;
-  min-width: 97px;
-  padding-right: 0px;
-}
-
-td {
-  height: 55px;
-  padding: 0px 25px;
-}
-
-.tablet {
-  margin: 20px;
-  border-collapse: collapse;
-  border-radius: 4px;
-  background-color: rgba(255, 255, 255, .7);
-  color: rgba(0, 0, 0, .9);
-} */
-
-.table-1 {
-  top: 115px;
-}
-
-.table-2 {
-  top: 170px;
+p {
+  font-size: 20px;
 }

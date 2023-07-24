@@ -40,6 +40,8 @@ aside {
   margin: auto;
   width: 250px;
   padding-top: 32px;
+  margin-left: 60px;
+  margin-top: 30px;
 }
 
 .graphs {
@@ -50,9 +52,7 @@ aside {
 }
 
 h1 {
-  display: inline-block;
   margin-top: 255px;
-  padding-left: 25px;
   color: #fff;
   font-weight: lighter
 }
@@ -123,7 +123,7 @@ header {
   height: 130px;
   background-color: rgba(255, 255, 255, .1);
   border-radius: 68px;
-  border: 5px solid #ff0
+  border: 5px solid orange
 }
 
 .text {
@@ -141,8 +141,7 @@ header {
 }
 
 .circle-graph-text {
-  color: #ff0;
-  /* transform: rotate(-45deg); */
+  color: white;
   text-align: center;
 }
 
@@ -150,10 +149,136 @@ header {
 .instagram-image,
 .mic-image,
 .home-image,
-.calendar-image,
+.events-image,
 .music-image,
 .radio-image,
-.setting-image {
+.setting-image,
+.menu-image,
+.search-image,
+.add-image,
+.calendar-image, 
+.marker-image,
+.pencil-image {
   width: 10px;
   height: 10px;
+}
+
+.bar-graph-button {
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.search {
+  display: inline-block;
+  position: absolute;
+  left: 95px;
+  height: 50px;
+  line-height: 50px;
+  margin-left: -4px;
+  background-color: #FFFDFE;
+  width: 77%;
+}
+
+.fi-br-add, .hamburger-angle,
+.fi-br-grid-alt, .fi-br-search, .fi-rr-calendar-days {
+  display: inline-block;
+  width: 90px;
+  height: 50px;
+  background-color: #FFFDFE;
+  color: #7D7478;
+  font-size: 1.2em;
+  line-height: 50px;
+  text-align: center;
+  border: 1px solid #C5B9BB;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+
+.search-image {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* .fi {
+  display: inline-block;
+} */
+
+.search-setting {
+  width: 80%;
+  height: 45px;
+}
+
+.hamburger-angle {
+  border-left: 0px;
+  display: inline-block;
+}
+
+.top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.fi-rr-calendar-days {
+  border-right: 0px;
+}
+
+.fi-br-add {
+  margin-right: -5px;
+}
+
+.fi-br-grid-alt {
+  margin-left: -5px;
+}
+
+.grid-image {
+  width: 10px;
+  height: 10px;
+}
+
+/* .table-head {
+  padding-left: 8px;
+}
+
+th {
+  background-color: rgba(0, 0, 0, .7);
+  line-height: 30px;
+  color: rgba(255, 255, 255, .7);
+  font-weight: normal;
+}
+
+.table-hr {
+  position: absolute;
+  left: 15%;
+  width: 70%;
+  border: 0px;
+  height: 1px;
+  background-color: rgba(0, 0, 0, .1);
+}
+
+.table {
+  font-size: .8em;
+  min-width: 97px;
+  padding-right: 0px;
+}
+
+td {
+  height: 55px;
+  padding: 0px 25px;
+}
+
+.tablet {
+  margin: 20px;
+  border-collapse: collapse;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, .7);
+  color: rgba(0, 0, 0, .9);
+} */
+
+.table-1 {
+  top: 115px;
+}
+
+.table-2 {
+  top: 170px;
 }
